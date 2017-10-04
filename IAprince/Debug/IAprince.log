@@ -1,0 +1,42 @@
+﻿Build started 9/18/2017 8:19:17 PM.
+     1>Project "c:\Users\Kevin\documents\visual studio 2015\Projects\IAprince\IAprince\IAprince.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\IAprince.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Boid.cpp
+         Boid.cpp
+     1>c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(31): error C2535: 'Seek::Seek(float,float)': member function already defined or declared
+         c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(29): note: see declaration of 'Seek::Seek'
+     1>c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(32): error C2512: 'PVector': no appropriate default constructor available
+         c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(7): note: see declaration of 'PVector'
+     1>c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(34): error C2248: 'PVector::PVector': cannot access private member declared in class 'PVector'
+         c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(12): note: see declaration of 'PVector::PVector'
+         c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(7): note: see declaration of 'PVector'
+     1>c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(34): error C2440: 'initializing': cannot convert from 'PVector *' to 'int'
+         c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(34): note: There is no context in which this conversion is possible
+     1>c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(35): error C2248: 'PVector::PVector': cannot access private member declared in class 'PVector'
+         c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(12): note: see declaration of 'PVector::PVector'
+         c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(7): note: see declaration of 'PVector'
+     1>c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(35): error C2679: binary '=': no operator found which takes a right-hand operand of type 'PVector *' (or there is no acceptable conversion)
+         c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(17): note: could be 'PVector &PVector::operator =(PVector &&)'
+         c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(17): note: or       'PVector &PVector::operator =(const PVector &)'
+         c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(35): note: while trying to match the argument list '(PVector, PVector *)'
+     1>c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(36): error C2248: 'PVector::PVector': cannot access private member declared in class 'PVector'
+         c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(12): note: see declaration of 'PVector::PVector'
+         c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(7): note: see declaration of 'PVector'
+     1>c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(36): error C2679: binary '=': no operator found which takes a right-hand operand of type 'PVector *' (or there is no acceptable conversion)
+         c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(17): note: could be 'PVector &PVector::operator =(PVector &&)'
+         c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(17): note: or       'PVector &PVector::operator =(const PVector &)'
+         c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(36): note: while trying to match the argument list '(PVector, PVector *)'
+     1>c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(39): warning C4305: '=': truncation from 'double' to 'float'
+     1>c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(40): error C2065: 'force': undeclared identifier
+     1>c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(43): error C2601: 'update': local function definitions are illegal
+     1>c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(53): error C2601: 'applyforce': local function definitions are illegal
+     1>c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(44): error C2065: 'velocity': undeclared identifier
+     1>c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(44): error C2065: 'acceleration': undeclared identifier
+     1>c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(46): error C2065: 'position': undeclared identifier
+     1>c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(46): error C2065: 'velocity': undeclared identifier
+     1>c:\users\kevin\documents\visual studio 2015\projects\iaprince\iaprince\boid.h(54): error C2065: 'acceleration': undeclared identifier
+     1>Done Building Project "c:\Users\Kevin\documents\visual studio 2015\Projects\IAprince\IAprince\IAprince.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.30
